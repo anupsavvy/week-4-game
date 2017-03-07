@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link href="css/icofont.css" rel="stylesheet">
+<link href="css/collector.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<section id="game">
+			<div class="section-game">
+				<div class="container">
+					<div class="page-header text-center">
+						<h2>Days to prepare for Google Interview</h2>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 text-center col-total-num">
+							<h4><i id="google-logo" class="icofont icofont-brand-google icofont-5x"></i></h4>
+							<small class="text-muted">Days to prepare for interview</small>
+							<div>
+								<h2 id="time-available"></h2>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="row text-center prep-items">
+								<div class="col-sm-3">
+									<img src="images/mit.jpg" class="img-thumbnail" alt="" data-val="mit">
+									<small>MIT Lectures</small>
+								</div>
+								<div class="col-sm-3">
+									<img src="images/adm.jpg" class="img-thumbnail" alt="" data-val="adm">
+									<small>Algorithms / DS</small>
+								</div>
+								<div class="col-sm-3">
+									<img src="images/ctci.jpg" class="img-thumbnail" alt="" data-val="ctci">
+									<small>CTCI</small>
+								</div>
+								<div class="col-sm-3">
+									<img src="images/fp.jpg" class="img-thumbnail" alt="" data-val="fp">
+									<small>Python</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-6 text-center">
+							<h2>Days spent</h2>
+							<h3 id="time-spent"></h3>
+							<button id="restart" class="btn btn-primary btn-lg">Apply for next interview</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="js/collector.js"></script>
+
+	</body>
+</html>
